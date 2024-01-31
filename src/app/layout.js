@@ -32,7 +32,9 @@ export default function RootLayout({ children }) {
       
       <Providers>
       <FirstNav/>
-      {children}
+      <main className='relative overflow-hidden' >
+       {children}
+       </main>
        <Footer/>
       </Providers>
   

@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 import { X } from 'lucide-react'
 import {  useDispatch } from 'react-redux'
 import { useFlutterwave, closePaymentModal } from 'flutterwave-react-v3';
-
+import Link from 'next/link'
 import {
   
   SheetContent,
@@ -37,7 +37,7 @@ const ShopingCart = () => {
     public_key: process.env.NEXT_PUBLIC_FLUTTER_PUBLISHABLE_KEY,
     tx_ref: Date.now(),
     amount: total,
-    currency: 'NGN',
+    currency: 'USD',
     payment_options: 'card,mobilemoney,ussd',
     customer: {
       email: 'user@gmail.com',
@@ -132,9 +132,10 @@ const ShopingCart = () => {
     
       </div>
       <div className='mt-6 flex justify-center text-center text-sm text-gray-500'>
-        <p>
+       <Link href='/store'> <p>
           OR <button>Continue Shopping</button>
         </p>
+        </Link>
 
       </div>
       

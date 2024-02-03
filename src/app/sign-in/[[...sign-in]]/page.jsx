@@ -7,7 +7,7 @@ export default function Page() {
 <section className="bg-white w-full h-full max">
     
   <div className="grid min-h-screen grid-cols-12 mt-[2%]">
-    <section className="relative flex lg:h-32 items-end bg-gray-900  h-full col-span-6 lg:col-span-12">
+    <section className="relative flex lg:h-32 items-end bg-gray-900  h-full col-span-6 lg:col-span-12 lg:hidden">
       <img
         alt="Night"
         src="/kim.webp"

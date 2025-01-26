@@ -8,7 +8,7 @@ const NavigationMenu = ({scrolling}) => {
       <div className="dropdown dropdown-hover ">
       <div tabIndex={0}  className="uppercase m-1 flex justify-center items-center">new <ArrowDown size={15}/></div>
   <div tabIndex={0} className="over left-[-100px] w-[1000px]">
-    <div className=' w-[20%] p-3 uppercase text-black font-semibold flex flex-col gap-2 h-full'>
+    <div className=' w-[20%] p-3 uppercase text-black bg-white font-semibold flex flex-col gap-2 h-full'>
   <h1>all new arrivals</h1>
   <h1>back in stock</h1>
     </div>
@@ -41,7 +41,7 @@ const NavigationMenu = ({scrolling}) => {
 <h1 className='uppercase text-[11px]'>best sellers</h1>
 <div className="dropdown dropdown-hover">
       <div tabIndex={1}  className="uppercase m-1 flex justify-center items-center">bras <ArrowDown size={15}/></div>
-  <div tabIndex={1} className="over left-[-100px] w-[1000px]">
+  <div tabIndex={1} className="over left-[-100px] w-[1000px] bg-white">
   <div className=' w-[20%] p-3 uppercase text-black font-semibold flex flex-col gap-2 h-full'>
   <h1>all bras</h1>
   <h1>all bralettes</h1>
@@ -87,7 +87,7 @@ const NavigationMenu = ({scrolling}) => {
 </div>
 <div className="dropdown dropdown-hover">
       <div tabIndex={2}  className="uppercase m-1 flex justify-center items-center">underwear<ArrowDown size={15}/></div>
-  <div tabIndex={2} className="over left-[-100px] w-[800px]">
+  <div tabIndex={2} className="over left-[-100px] w-[800px] bg-white">
   <div className=' w-[20%] p-3 uppercase text-black font-semibold flex flex-col gap-2 h-full'>
   <h1>all underwear</h1>
   <h1>bundles & save</h1>
@@ -127,7 +127,7 @@ const NavigationMenu = ({scrolling}) => {
 </div>
 <div className="dropdown dropdown-hover">
       <div tabIndex={0}  className="uppercase m-1 flex justify-center items-center">clothing & lounge<ArrowDown size={15}/></div>
-  <div tabIndex={0} className="over left-[-300px] w-[1050px]">
+  <div tabIndex={0} className="over left-[-300px] w-[1050px] bg-white">
   <div className=' w-[20%] p-3 uppercase text-black font-semibold flex flex-col gap-2 h-full'>
   <h1>all loungewear</h1>
   <h1>all clothing</h1>
@@ -167,7 +167,7 @@ const NavigationMenu = ({scrolling}) => {
 </div>
 <div className="dropdown dropdown-hover">
       <div tabIndex={0}  className="uppercase m-1 flex justify-center items-center">shapewear<ArrowDown size={15}/></div>
-  <div tabIndex={0} className="over w-[1000px] left-[-500px]">
+  <div tabIndex={0} className="over w-[1000px] left-[-500px] bg-white">
   <div className=' w-[20%] p-3 uppercase text-black font-semibold flex flex-col gap-2 h-full'>
   <h1>all shapewear</h1>
   <h1>the shapewear guide</h1>
@@ -203,7 +203,7 @@ const NavigationMenu = ({scrolling}) => {
 </div>
 <div className="dropdown dropdown-hover">
       <div tabIndex={0}  className="uppercase m-1 flex justify-center items-center">mens<ArrowDown size={15}/></div>
-  <div tabIndex={0} className="over w-[1050px] max left-[-600px]">
+  <div tabIndex={0} className="over w-[1050px] max left-[-600px] bg-white">
   <div className=' w-[20%] p-3 uppercase text-black font-semibold flex flex-col gap-2 h-full'>
   <h1>explore mens</h1>
   <h1>all mens</h1>
